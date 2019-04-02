@@ -1,6 +1,27 @@
 https://github.com/DKotoski/SI_15037_lab1
 git init
+git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/DKotoski/SI_15037_lab1.git
 git branch bugFix1
 git branch bugFix2
+git checkout bugFix1
+git add .
+git commit -m "pritnMyName implemented"
+git push --set-upstream origin bugFix1
+git checkout bugFix2
+git add .
+git commit -m "printMyIndex implemented"
+git push --set-upstream origin bugFix1
+git checkout master
+git merge bugFix1
+git merge bugFix2
+git push --set-upstream origin master
+git branch mainImplementation
+git checkout mainImplementation
+git add .
+git commit -m "main part implemented”
+git push --set-upstream origin mainImplementation
+git checkout masterg
+git merge mainImplementation
+git push
