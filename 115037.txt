@@ -1,2 +1,4 @@
+https://github.com/DKotoski/SI_15037_lab1
 git init
 git commit -m "Initial commit"
+git remote add origin https://github.com/DKotoski/SI_15037_lab1.git
